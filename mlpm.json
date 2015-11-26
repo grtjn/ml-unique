@@ -1,0 +1,6 @@
+{
+  "name": "ml-unique",
+  "version": "1.0.0",
+  "description": "MarkLogic library for generating unique database URIs and IDs",
+  "repository": "https://github.com/grtjn/ml-unique.git"
+}
