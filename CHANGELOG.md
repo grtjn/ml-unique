@@ -3,7 +3,7 @@
 ## [1.0.2](https://github.com/grtjn/ml-unique/tree/1.0.2) (2017-06-02)
 [Full Changelog](https://github.com/grtjn/ml-unique/compare/1.0.1...1.0.2)
 
-**Closed issues:**
+**Implemented enhancements:**
 
 - Automatically increase precision at collision [\#6](https://github.com/grtjn/ml-unique/issues/6)
 
