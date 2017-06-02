@@ -36,7 +36,7 @@ declare function uniq:random-uri(
   let $uri := concat($prefix, $random, $suffix)
   return
     if (map:get($used-uris, $uri) or exists(doc($uri))) then
-      uniq:random-uri($prefix, $suffix, $precision)
+      uniq:random-uri($prefix, $suffix, $precision + 1)
     else
       let $_ := map:put($used-uris, $uri, true())
       return
